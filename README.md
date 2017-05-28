@@ -19,14 +19,16 @@ Basically,I design this Activity for show the logo of my mother school and get s
 ---
 This is the main activity of this application.You only can start launch all the functions form here.You can use and check the map here,you can see some latest news from the Marquee bar(on the bottom of this activity,it will update form the university website automatically),it will send show you the latest announcement by a popup(announcement is get from a specific blog I set,the app will grasp the data from that blog automatically,when it finds an information new,it will show you that by a popup).
 
-###  About MAP
+### About MAP
 ---
 In this part,I use the BAIDU MAP API to achive my function,this is not very complicated,I refered to the official tutotials online.
 
-###  About Popup
+### About Popup
 ---
+
 A thread will check the blog per 2 seconds,once it fins any new announcement,it will tell the handler to show you a popup with the new announcement.
- ---
+
+
 ![Main Activity](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/information.png)
 
 
@@ -38,16 +40,26 @@ when this app was launced,our app will check the NJUPT(Nanjing University of Pos
 ## Login Activity
 ---
 This is the hardest part I faced on this entire project.In This part,I have to mocking logging in the grade system and get the grades back and dis play them,I need to use much html knowledge.At first of all,I download the Security code picture and display it on the activity,after user enter user name,password and Security code,I will use this information to mock loging in the system.Since I didn't know and I can't anything useful about how the grade system work,I have to test it again and again myself,I still remeber how much time it costed me to finish this part.After achiveing this function,user and check his grades in this app directly.
+
 ---
+
 ![Login Activity](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/login.png)
+
+---
+
 ![Grade](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/grade.png)
 
-## Weather/Announcement/News Activity
+
+Weather/Announcement/News Activity
 ---
+
 This part is very easy,when user click these parts,the app will open a new activity and redirect the new activity to a specific link.It's like a browser here.
+
 ---
 ![Weather](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/weather.png)
 ---
 ![Announcement](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/announcement.png)
 ---
 ![News](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/news.png)
+---
+
