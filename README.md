@@ -1,4 +1,11 @@
 # Compus-Mobile-Application
+
++ Introduction
++ Welcome Activity
++ Main Activity
++ Login Activity
++ Weather/Announcement/News Activity
++ APK Installation
 ---
 ## Introduction
 This is the graduation project for my bachlor degree.I finishe it in August 2015,and I didn't have a github account at that time,I find it today in my old laptop and decide to upload.Basically this is my first project with Android,I start from this.Concetely,this is a complex of many functionalirs.You can see the map here,you can log in and check your grade here(I can't check my grades due to the cancellation of my compus account),you can receive announcements form the administrator...
@@ -33,7 +40,7 @@ A thread will check the blog per 2 seconds,once it fins any new announcement,it 
 
 
 
-###  About Marquee Bar
+### About Marquee Bar
 ---
 when this app was launced,our app will check the NJUPT(Nanjing University of Posts and Telecommunications) website and downloads three latest news and show it on the Marquee bar，it will show the motto of NJUPY as well.
 
@@ -50,7 +57,7 @@ This is the hardest part I faced on this entire project.In This part,I have to m
 ![Grade](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/grade.png)
 
 
-Weather/Announcement/News Activity
+## Weather/Announcement/News Activity
 ---
 
 This part is very easy,when user click these parts,the app will open a new activity and redirect the new activity to a specific link.It's like a browser here.
@@ -63,3 +70,6 @@ This part is very easy,when user click these parts,the app will open a new activ
 ![News](https://raw.githubusercontent.com/s2117402/Compus-Mobile-Application/master/Image/news.png)
 ---
 
+## APK Installation
+
+[APK Link](https://github.com/s2117402/Compus-Mobile-Application/tree/master/APK)
