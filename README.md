@@ -72,4 +72,4 @@ This part is very easy,when user click these parts,the app will open a new activ
 
 ## APK Installation
 
-[APK Link](https://github.com/s2117402/Compus-Mobile-Application/tree/master/APK)
+[Download APK](https://github.com/s2117402/Compus-Mobile-Application/tree/master/APK)
