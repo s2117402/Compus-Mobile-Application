@@ -8,7 +8,7 @@
 + APK Installation
 ---
 ## Introduction
-This is the graduation project for my bachlor degree.I finishe it in August 2015,and I didn't have a github account at that time,I find it today in my old laptop and decide to upload.Basically this is my first project with Android,I start from this.Concetely,this is a complex of many functionalirs.You can see the map here,you can log in and check your grade here(I can't check my grades due to the cancellation of my compus account),you can receive announcements form the administrator...
+This is the graduation project for my bachelor degree.I finished it in August 2015, and I didn't have a GitHub account at that time, I find it today on my old laptop and decide to upload.Basically, this is my first project with Android, I start from this.Concretely, this is a complex of many functionalities.You can see the map here, you can log in and check your grade here(I can't check my grades due to the cancellation of my campus account), you can receive announcements from the administrator...
 
 Now,I will introduct this app and all of its functionalits by each window in order.
 
