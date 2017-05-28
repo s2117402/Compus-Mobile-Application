@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:columnCount="4"
+    android:columnOrderPreserved="false"
+    android:orientation="horizontal"
+    android:rowCount="3" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/button2"
+        android:background="@drawable/gg"
+        android:onClick="note" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/button3"
+        android:background="@drawable/cj"
+        android:onClick="login" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/tq"
+        android:onClick="weather" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/xw"
+        android:onClick="news" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="23dp"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/map"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg1"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="南邮精神：信达天下 自强不息                          "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_orange_light" />
+
+    <com.amap.api.maps2d.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="339dp"
+        android:layout_height="414dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" >
+
+    </com.amap.api.maps2d.MapView>
+
+</RelativeLayout>
